@@ -2032,7 +2032,7 @@ h1, h2, h3, h4, h5, h6 {
 /*  Menu Styles
 /* =================================== */
 .header-top {
-  background: url("../img/menu-top.jpg");
+  
   background-size: cover;
   height: 20px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2496,7 +2496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   line-height: 1em;
   margin-top: 10px;
-  color: #f9d700;
+  color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -2555,7 +2555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .header-right {
-  background-color: #f9d700;
+  background-color: #fff;
   border: 1px solid #4b5263;
   padding: 50px;
   text-align: center;
