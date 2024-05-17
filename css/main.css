@@ -164,7 +164,9 @@ h4, h5, h6 {
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
+  
 }
+    
 
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
@@ -2059,7 +2061,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   padding: 18px 35px;
-  background: #000;
+  background: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2091,8 +2093,8 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   transition: all 0.5s;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-  background-color: #000;
-  height: 60px;
+  background-color: #3379d0;
+  height: 100px;
 }
 
 #header.header-scrolled .header-top {
@@ -2372,7 +2374,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 120px 0;
+  padding: 40px 0;
 }
 
 .alert-msg {
@@ -2473,8 +2475,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/covai_taxi.webp) center;
   background-size: cover;
+  
 }
 
 .banner-area .overlay-bg {

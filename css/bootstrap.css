@@ -242,6 +242,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  width:250px;
+  height:250px;
 }
 
 svg:not(:root) {
@@ -1151,7 +1153,7 @@ pre code {
   }
   .col-lg-6 {
     flex: 0 0 50%;
-    max-width: 50%;
+    
   }
   .col-lg-7 {
     flex: 0 0 58.33333%;
@@ -1406,7 +1408,10 @@ pre code {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
-  background-color: transparent;
+  background-color: aliceblue;
+  font-size: medium;
+  text-align: left;
+  
 }
 
 .table th,
