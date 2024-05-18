@@ -1,34 +1,27 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = 'CovaiTaxiAssist@gmail.com';
-    $name = $_POST["name"];
-    $email= $_POST["email"];
-    $text= $_POST["message"];
-    $subject= $_POST["subject"];
-    
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $message = htmlspecialchars($_POST['message']);
 
+    $to = 'covaitaxiassist@gmail.com'; // Replace with your email address
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-type: text/html\r\n";
 
-    $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $body = "<h2>Contact Form Submission</h2>
+             <p><strong>Name:</strong> {$name}</p>
+             <p><strong>Email:</strong> {$email}</p>
+             <p><strong>Subject:</strong> {$subject}</p>
+             <p><strong>Message:</strong><br>{$message}</p>";
 
-    $message ='<table style="width:100%">
-        <tr>
-            <td>'.$name.'  '.$subject.'</td>
-        </tr>
-        <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>phone: '.$subject.'</td></tr>
-        <tr><td>Text: '.$text.'</td></tr>
-        
-    </table>';
-
-    if (@mail($to, $email, $message, $headers))
-    {
-        echo 'Your message has been sent.';
-    }else{
-        echo 'failed';
+    if(mail($to, $subject, $body, $headers)){
+        echo 'Message sent successfully!';
+    } else {
+        echo 'Message sending failed. Please try again.';
     }
-}else {
-    echo 'Invalid request. Please submit the form.';
+} else {
+    echo 'Invalid request method';
 }
 ?>
