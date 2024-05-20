@@ -8,8 +8,24 @@
 
 
 <url>
-  <loc>https://covaitaxi.in/</loc>
-  <lastmod>2023-12-13T20:27:43+00:00</lastmod>
+  <loc>https://www.covaitaxi.in/</loc>
+  <lastmod>2024-05-18T17:44:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.covaitaxi.in/index.html</loc>
+  <lastmod>2024-05-18T17:44:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.covaitaxi.in/gallery.html</loc>
+  <lastmod>2024-05-18T17:44:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.covaitaxi.in/contact.html</loc>
+  <lastmod>2024-05-18T17:44:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 

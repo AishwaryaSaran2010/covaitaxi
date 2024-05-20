@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /index.html
+Allow: /gallery.html
+Allow: /contact.html
+
+Sitemap: https://www.covaitaxi.in/sitemap.xml
