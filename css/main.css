@@ -2475,7 +2475,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/covai-taxi.webp) center;
+  background: url(../img/covai-taxi-banner-image.webp) center;
   background-size: cover;
   
 }
@@ -2581,7 +2581,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: .25rem;
   background-color: #000000;
 }
-
+.phone-link {
+  color: white; /* Set the text color to white */
+  text-decoration: none; /* Remove the underline */
+  font-size: 16px; /* Adjust the font size as needed */
+}
 .header-right .form-control {
   font-size: 14px;
   padding: 0.575rem 0.75rem;
@@ -2644,7 +2648,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .wrap-left {
   padding-right: 0.5rem !important;
 }
-
+.phone-link {
+  color: white; /* Set the text color to white */
+  text-decoration: none; /* Remove the underline */
+  font-size: 30px; /* Increase the font size */
+  font-weight: bold; /* Optional: Make the text bold */
+}
 .wrap-right {
   padding-left: 0.5rem !important;
 }
