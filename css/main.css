@@ -92,7 +92,7 @@ $black			: #222;
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
@@ -2374,7 +2374,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .alert-msg {
@@ -2475,7 +2475,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/covai-taxi-banner-image.webp) center;
+  background: url(../img/covai-taxi-banner-image.png) center;
   background-size: cover;
   
 }
@@ -2483,6 +2483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area .overlay-bg {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 
 @media (max-width: 767px) {
   .fullscreen {
@@ -2834,7 +2835,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-calltoaction-area .overlay-bg {
-  background-color: rgba(249, 215, 0, 0.9);
+  background-color: rgba(62, 62, 59, 0.9);
 }
 
 .home-calltoaction-area p {
@@ -4106,4 +4107,56 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
 }
 
+.footer__option__item {
+  margin-bottom: 35px;
+}
+.footer__option__item h5 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.footer__option__item p {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer__option__item .read__more {
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer__option__item .read__more span {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.5;
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
+}
+.footer__option__item ul li {
+  list-style: none;
+}
+.footer__option__item ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.footer__top__social {
+  text-align: right;
+}
+.footer__top__social a {
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+  margin-right: 6px;
+}
+.footer__top__social a:last-child {
+  margin-right: 0;
+}
 /*-------- end footer Area -------------*/
